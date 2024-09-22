@@ -1,0 +1,15 @@
+/* .btn-add {
+  background-color: #3730a3;
+} */
+
+
+/* ****************Employee container************** */
+.employee-content h2 {
+  color: white;
+}
+
+.table tbody td:last-child {
+  margin: 1.3rem 0;
+}
+
+/* ****************Employee container************** */

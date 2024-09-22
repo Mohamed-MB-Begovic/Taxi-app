@@ -1,0 +1,49 @@
+.hero {
+  padding: 0 8rem;
+  padding-top: 3.5rem;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 4rem;
+  height: 89vh;
+  grid-template-rows: 70vh;
+  text-transform: capitalize;
+  border-bottom: 1px solid grey;
+}
+
+.left-hero {
+  line-height: 1.5;
+}
+.left-hero h2 {
+  font-weight: 700;
+  font-size: 3rem;
+}
+.left-hero h2 span {
+  font-weight: 300;
+  display: block;
+}
+.hero-btns {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+.hero-btns .btn-knowmore {
+  background: none;
+  color: grey;
+  /* color: white; */
+  border: 1px solid #202020;
+  /* border: 1px solid #fff; */
+}
+.btn-knowmore:hover {
+  border: 1px solid transparent;
+  color: white;
+}
+.right-hero img {
+  width: 100%;
+}
+
+/* dark mode */
+
+.hero.dark .btn-knowmore {
+  border-color: white;
+  color: white;
+}

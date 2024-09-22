@@ -1,0 +1,64 @@
+.edit-form {
+  padding: 2rem 4rem 2rem;
+  /* width: max-content; */
+}
+.profile-inputs {
+  /* background-color: red; */
+  display: flex;
+  align-items: center;
+  gap: 6rem;
+  margin-bottom: 3rem;
+}
+.inputs {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  width: 28rem;
+}
+.input {
+  display: flex;
+  align-items: center;
+}
+.input label {
+  width: 8rem;
+  color: white;
+}
+.input input {
+  padding: 10px 8px 10px 10px;
+  width: 20rem;
+  border: 2px solid #18212f;
+  border-radius: 5px;
+  background-color: #18212f;
+  color: white;
+  outline: none;
+}
+.input input:focus {
+  outline: none;
+  border-color: #3730a3;
+  /* background-color: #; */
+}
+.input input::placeholder {
+  color: white;
+}
+.inputs button {
+  margin-top: 5rem;
+  width: auto;
+}
+
+.profile-input img {
+  height: 13rem;
+  width: 14rem;
+  margin-bottom: 10px;
+  object-fit: fill;
+  /* border: 5px solid #3730a3; */
+  border-radius: 5px;
+}
+.profile-input input {
+  padding: 10px 8px;
+  width: 14rem;
+  background-color: #3730a3;
+  color: white;
+}
+.password-inputs .inputs {
+  margin-top: 2rem;
+}

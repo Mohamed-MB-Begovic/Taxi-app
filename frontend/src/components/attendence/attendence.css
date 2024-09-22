@@ -1,0 +1,16 @@
+.table input.checklist {
+  height: 1.5rem;
+}
+.table.display{
+  display: none;
+}
+.btn.display{
+  display: none;
+}
+.today{
+  margin-top: 3rem;
+  text-transform: capitalize;
+}
+.today span{
+  color: red;
+}

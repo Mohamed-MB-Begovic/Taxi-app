@@ -1,0 +1,56 @@
+.present,.absent{
+    background-color: green;
+    width:min-content;
+    border-radius: 25px;
+}
+.absent{
+    background-color: red;
+}
+.tabs{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: -1rem;
+    margin-top: 1rem;
+}
+.search-container{
+    display: flex;
+    align-items: center;
+}
+
+.search-container input {
+    padding: 10px 8px 10px 2rem;
+    width: 0rem;
+    border: 2px solid #18212f;
+    /* border: 2px solid #3730a3; */
+    border-radius: 5px;
+    background-color: #3730a3;
+    /* background-color: #18212f; */
+    color: white;
+    outline: none;
+    transition: all 0.4s;
+  }
+  .search-container input:hover{
+    width: 20rem;
+  }
+  .search-container ion-icon:hover input{
+    width: 20rem;
+  }
+  .search-container input::placeholder {
+    color: white;
+  }
+  .search-container ion-icon {
+    /* position: absolute; */
+    color: white;
+    margin-right: -1.8rem;
+    margin-top: 2px;
+  }
+
+.date-input{
+    width: 10rem;
+    padding: 5px;
+    font-weight: bold;
+    /* background-color: #490e2c;
+    color: white;
+    border: 2px solid white; */
+}

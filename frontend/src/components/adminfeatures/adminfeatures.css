@@ -1,0 +1,38 @@
+.admin-features {
+  padding: 0 8rem;
+  margin-top: 3rem;
+  padding: 0 8rem;
+  margin-top: 3rem;
+}
+.admin-features h2 {
+  /* text-align: center; */
+  font-weight: 700;
+}
+.admin-features .boxes {
+  display: grid;
+  gap: 10rem;
+  margin-top: 3rem;
+}
+.admin-features .boxes .box {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 40vh;
+  gap: 3rem;
+}
+.admin-features .boxes .box img {
+  width: 100%;
+}
+.admin-features .boxes .box p {
+  line-height: 1.9;
+  font-size: 16px;
+  font-weight: 600;
+}
+.admin-features .boxes .box .right {
+  line-height: 55px;
+}
+.admin-features .boxes .box .right h3 {
+  font-size: 2rem;
+}
+.btn-getstarted {
+  text-decoration: none;
+}

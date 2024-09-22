@@ -1,0 +1,46 @@
+.footer {
+  height: 50vh;
+  width: 100%;
+  background-color: #364fc7;
+  padding: 2rem 8rem;
+  margin-top: 3rem;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  color: white;
+}
+.left-footer h2 {
+  margin-bottom: 1rem;
+}
+.left-footer div {
+  display: flex;
+  align-items: center;
+  padding: 10px 0;
+  gap: 10px;
+}
+.left-footer div ion-icon {
+  font-size: 1.4rem;
+}
+
+.right-footer {
+  display: grid;
+  grid-template-columns: repeat(4, 150px);
+  column-gap: 2rem;
+}
+.footer-links {
+  list-style: none;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+.footer-links li {
+  font-weight: 500;
+  text-transform: none;
+  padding: 10px 0;
+}
+
+/* dark mode */
+
+.footer.dark-mode {
+  background-color: #1c1d21;
+  color: white;
+}

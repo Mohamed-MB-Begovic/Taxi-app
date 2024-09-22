@@ -1,0 +1,93 @@
+.signup {
+  background-image: url("b-1.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.signup-container {
+  background-color: #fff;
+  height: 90vh;
+  width: 30%;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+
+  padding: 2rem;
+
+  padding: 2rem;
+}
+.signup-left {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem 0;
+}
+
+.signup-header .logo {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-size: 2rem;
+}
+.signup-header .logo ion-icon {
+  font-size: 3rem;
+}
+.signup-header h2 {
+  font-size: 1.2rem;
+  text-align: center;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+.signup-inputs {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+.signup-inputs input {
+  padding: 10px;
+  outline: none;
+  border-radius: 5px;
+  border: 1px solid #9999;
+}
+.signup-inputs input:focus {
+  border: 2px solid #101010;
+}
+mb {
+  color: var(--primary-color);
+}
+
+.btn-continue {
+  cursor: pointer;
+}
+/* 
+.signup-right {
+  padding: 0 0 0 1rem;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 50vh 1fr;
+}
+
+.signup-right img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.signup-right h2 {
+  font-size: 1rem;
+  margin-bottom: 10px;
+  text-transform: capitalize;
+}
+.signup-right p {
+  width: 100%;
+  font-weight: 600;
+  font-size: 12px;
+} */
+.signup-inputs p {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}

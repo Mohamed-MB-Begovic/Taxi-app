@@ -1,0 +1,119 @@
+.sidebar {
+  grid-row: 1;
+  grid-column: 1;
+  background-color: #18212f;
+  height: 100vh;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 270px;
+  padding: 10px;
+  box-shadow: 0px 0px 1px #ddd;
+  border: 2px solid transparent;
+}
+.topSidebar {
+  text-align: center;
+  margin-top: 1rem;
+}
+.topSidebar img {
+  width: 5rem;
+  border-radius: 50%;
+}
+.topSidebar p {
+  color: white;
+  text-transform: uppercase;
+  margin-top: 10px;
+  /* font-weight: bold; */
+  letter-spacing: 2px;
+}
+.sidebarList {
+  padding: 20px;
+}
+.sidebarItem {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  padding: 13px 20px;
+  margin: 12px 0;
+  border-radius: 5px;
+  text-decoration: none;
+}
+.sidebarItem.active,
+.sidebarItem:hover {
+  background-color: #111827;
+  transition: all 0.6s ease;
+}
+.sidebarItem.active p,
+.sidebarItem:hover p {
+  background-color: #111827;
+  opacity: 100%;
+  font-weight: 700;
+}
+.sidebarItem.active ion-icon,
+.sidebarItem:hover ion-icon {
+  /* transition: none; */
+  transition: 0.3s;
+  color: #3730a3;/
+}
+.sidebarItem p {
+  color: white;
+  font-weight: 600;
+  margin-top: 3px;
+  opacity: 80%;
+}
+.sidebarItem ion-icon {
+  color: grey;
+  font-size: 23px;
+}
+
+
+
+/* light version */
+
+.sidebar.light{
+  background-color: white;
+  border: 2px solid #ddd;
+}
+
+.sidebar.light .topSidebar p{
+  color: black;
+  font-weight: bold;
+}
+.sidebar.light .sidebarItem ,
+.sidebarItem:hover {
+  background-color: #ddd;
+  transition: all 0.6s ease;
+}
+
+.sidebar.light .sidebarItem.active,
+.sidebarItem:hover {
+  background-color: #111827;
+  transition: all 0.6s ease;
+}
+.sidebar.light .sidebarItem.active p{
+  color: white;
+}
+.sidebar.light .sidebarItem:hover p{
+  background-color: transparent;
+}
+.sidebar.light .sidebarItem:hover{
+  background-color: #18212f;
+  transition: all 0.6s ease;
+}
+.sidebar.light .sidebarItem:hover p{
+  transition: all 0.6s ease;
+
+}
+.sidebar.light .sidebarItem:hover p{
+  color: white;
+}
+.sidebar.light .sidebarItem p {
+  color: black;
+  font-weight: 600;
+  margin-top: 3px;
+  opacity: 80%;
+}
+.sidebarItem ion-icon {
+  color: #3730a3;
+  font-size: 23px;
+}

@@ -1,0 +1,48 @@
+.content-home h2 {
+  color: white;
+  font-size: 24px;
+}
+.boxContainer {
+  margin-top: 2rem;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 15vh 15vh;
+  gap: 15px;
+}
+.boxContainer .box {
+  background-color: #18212f;
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  padding: 0 1rem;
+  line-height: 1.6;
+  border-radius: 5px;
+}
+.boxContainer .box p {
+  color: #e5e5e5;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.boxContainer .box h3 {
+  color: white;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+.boxContainer ion-icon {
+  color: white;
+  height: 2.5rem;
+  width: 2.5rem;
+  padding: 10px;
+  border-radius: 50%;
+}
+.boxContainer .box:nth-child(1) ion-icon {
+  background-color: #075985;
+}
+.boxContainer .box:nth-child(2) ion-icon {
+  background-color: #166534;
+}
+.boxContainer .box:nth-child(3) ion-icon {
+  background-color: #3730a3;
+}
+.boxContainer .box:nth-child(4) ion-icon {
+  background-color: #854d0e;
+}

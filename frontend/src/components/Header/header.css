@@ -1,0 +1,53 @@
+.header {
+  background-color: #18212f;
+  grid-column: 2;
+  height: 11vh;
+  box-shadow: 0px 0px 1px #ddd;
+  padding: 15px 10px 0 ;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  border: 2px solid transparent;
+}
+.header-list {
+  float: right;
+  display: flex;
+  align-items: center;
+  padding: 0 1rem;
+  list-style: none;
+  gap: 26px;
+}
+.user {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.user img {
+  width: 2.5rem;
+  border-radius: 50%;
+}
+.user p {
+  color: white;
+}
+.header-list li ion-icon {
+  /* color: #3730a3; */
+  font-size: 25px;
+  cursor: pointer;
+  background-color: #ddd;
+  padding: 8px;
+  border-radius: 5px;
+}
+.header-list li ion-icon {
+  color: #3730a3;
+}
+
+
+
+
+
+/* light version */
+
+.header.light{
+  background-color: white;
+  border: 2px solid #ddd;
+}

@@ -1,0 +1,31 @@
+.features {
+  height: 40vh;
+  padding: 0 8rem;
+  margin-top: 3rem;
+  /* background-color: red; */
+}
+.features h2 {
+  text-align: center;
+  font-weight: 700;
+  margin-bottom: 3rem;
+}
+.feature-imgs {
+  display: flex;
+  justify-content: space-around;
+  gap: 1rem;
+  margin-top: 2rem;
+  margin-bottom: 3rem;
+}
+.feature-imgs img {
+  height: 2rem;
+  filter: brightness(0);
+  opacity: 60%;
+}
+.btn-joinus {
+  margin: 4rem 500px;
+  width: 7rem;
+}
+
+.feature-imgs.dark-version img {
+  filter: invert(100);
+}
